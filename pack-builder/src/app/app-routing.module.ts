@@ -4,11 +4,16 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { OtherPageComponent } from './pages/other-page/other-page.component';
 import { HowToPageComponent } from './pages/how-to-page/how-to-page.component';
 import { AboutPageComponent } from './pages/about-page/about-page.component';
+import { StatsPageComponent } from './pages/stats-page/stats-page.component';
 
 const routes: Routes = [
     {
         path: 'home',
         component: HomePageComponent
+    },
+    {
+        path: 'stats',
+        component: StatsPageComponent
     },
     {
         path: 'other',
