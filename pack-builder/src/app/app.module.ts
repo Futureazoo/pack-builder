@@ -8,6 +8,8 @@ import { OtherPageComponent } from './pages/other-page/other-page.component';
 import { HowToPageComponent } from './pages/how-to-page/how-to-page.component';
 import { AboutPageComponent } from './pages/about-page/about-page.component';
 import { StatsPageComponent } from './pages/stats-page/stats-page.component';
+import { PickerComponent } from './components/picker/picker.component';
+import { SelectionCardComponent } from './components/selection-card/selection-card.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { StatsPageComponent } from './pages/stats-page/stats-page.component';
     OtherPageComponent,
     HowToPageComponent,
     AboutPageComponent,
-    StatsPageComponent
+    StatsPageComponent,
+    PickerComponent,
+    SelectionCardComponent
   ],
   imports: [
     BrowserModule,
