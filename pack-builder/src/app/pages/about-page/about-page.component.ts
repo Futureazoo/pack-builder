@@ -12,4 +12,12 @@ export class AboutPageComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  sendClick() {
+      var yourMessage = "MESSAGE";
+      var subject = "SUBJECT";
+      document.location.href = "mailto:mauld@uci.edu?subject="
+        + encodeURIComponent(subject)
+        + "&body=" + encodeURIComponent(yourMessage);
+  }
+
 }

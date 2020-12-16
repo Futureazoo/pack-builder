@@ -9,6 +9,16 @@
 
 <div class="container">
     <h1>About Me</h1>
+    <p>
+        I've been playing Minecraft since 2012, and since the start I've loved making textures for the game.
+        I loved being able to see my own drawings making up the world around me, and making sweeping changes with relatively low effort.
+        Even when I got burnt out on the game, I would still make textures and models for fun.
+        Minecraft was my first real exposure to pixel art, and it encouraged me to experiment with new forms and styles of digital drawing.
+        Even though I don't play it as much as I used to, Minecraft will always have a special place in my heart, and be a core part of my childhood.
+    </p>
+    <p>
+        If you like what I've done here, whether in the Pack Builder or Other Resource packs, please consider buying me a Boba through the paypal link below.
+    </p>
     <div class="row">
         <div class="col text-center">
             <a href="https://paypal.me/michaellauld?locale.x=en_US">
@@ -29,18 +39,10 @@
         </div>
         <div class="form-group">
             <label for="exampleFormControlTextarea1">Body</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+            <textarea id="body-text" class="form-control" rows="4" placeholder="Type your message..."></textarea>
         </div>
-        <label for="exampleFormControlInput1">Return Email Address</label>
         <div class="form-row">
-            <div class="col-md-8">
-                <div class="form-group">
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                </div>
-            </div>
-            <div class="col-md-4">
-                <button type="submit" class="btn btn-primary">Send Message</button>
-            </div>
+            <button class="btn btn-lg btn-block btn-primary" (click)="sendClick()">Send Message</button>
         </div>
     </form>
 </div>
