@@ -23,6 +23,10 @@ export class HomePageComponent implements OnInit {
             let resource = new ResourceData(resources.selections[i].name, resource_selections);
             this.all_resources.push(resource);
         }
-        //console.log(this.all_resources);
+    }
+
+    public downloadClick() {
+        console.log("DOWNLOAD");
+        console.log(this.all_resources);
     }
 }

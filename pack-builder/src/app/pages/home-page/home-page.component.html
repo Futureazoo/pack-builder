@@ -3,7 +3,7 @@
         <h1 class="display-4">Build Your Own Resource Pack</h1>
         <p class="lead">
             Default inspired variations on the classic Minecraft look.
-            Make your selections and download your custom resource pack.
+            Scroll down, make your selections and download your custom resource pack when you reach the bottom.
             Easy as that!
         </p>
     </div>
@@ -11,4 +11,12 @@
 
 <div class="container" *ngFor="let r of all_resources">
     <app-selection-card [name]="r.name" [options]="r.selections"></app-selection-card>
+</div>
+
+<div class="container" id="download_compartment">
+    <div class="col text-center">
+        <button class="btn btn-default" (click)="downloadClick()">
+            <img src="../../assets/buttons/download/unpressed.png" class="img-fluid" alt="Download Button" id="download_button">
+        </button>
+    </div>
 </div>

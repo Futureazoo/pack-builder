@@ -21,7 +21,6 @@ export class PickerComponent implements OnInit {
     }
 
     public update() {
-        console.log("HEY, UPDATING");
         this.selected_total = this.options.length;
         for (var i = 0; i < this.options.length; ++i) {
             if (this.options[i].selected) {
