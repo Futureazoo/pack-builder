@@ -9,9 +9,6 @@
     </div>
 </div>
 
-<div class="container">
-    <app-selection-card></app-selection-card>
-    <app-selection-card></app-selection-card>
-    <app-selection-card></app-selection-card>
-    <app-selection-card></app-selection-card>
+<div class="container" *ngFor="let r of all_resources">
+    <app-selection-card [name]="r.name" [options]="r.selections"></app-selection-card>
 </div>

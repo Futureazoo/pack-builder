@@ -1,0 +1,108 @@
+{
+    "selections" : [
+        {
+            "name" : "Grass Block",
+            "options" : [
+                {
+                    "name" : "Default",
+                    "render_path" : "../../assets/renders/grass_block/default.png",
+                    "description" : "No change. The Default look of Minecraft.",
+                    "database_location" : "",
+                    "selected" : "true"
+                },
+                {
+                    "name" : "Fall",
+                    "render_path" : "../../assets/renders/grass_block/fall.png",
+                    "description" : "Adds fall leaves and twigs scattered randomly across grass blocks.",
+                    "database_location" : "",
+                    "selected" : "false"
+                },
+                {
+                    "name" : "Snow",
+                    "render_path" : "../../assets/renders/grass_block/snowy.png",
+                    "description" : "Covers all grass with snow and adds random winter details.",
+                    "database_location" : "",
+                    "selected" : "false"
+                },
+                {
+                    "name" : "Vivid",
+                    "render_path" : "../../assets/renders/grass_block/vivid.png",
+                    "description" : "Grass is a more vibrant green color.",
+                    "database_location" : "",
+                    "selected" : "false"
+                },
+                {
+                    "name" : "Lush",
+                    "render_path" : "../../assets/renders/grass_block/lush.png",
+                    "description" : "Grass appears thicker and more lush.",
+                    "database_location" : "",
+                    "selected" : "false"
+                }
+            ]
+        },
+        {
+            "name" : "Leaves",
+            "options" : [
+                {
+                    "name" : "Default",
+                    "render_path" : "../../assets/renders/leaves/default.png",
+                    "description" : "No change. The Default look of Minecraft.",
+                    "database_location" : "",
+                    "selected" : "true"
+                },
+                {
+                    "name" : "Fall",
+                    "render_path" : "../../assets/renders/leaves/fall.png",
+                    "description" : "Gives all leaves a fall color scheme with red, yellow, and orange foliage.",
+                    "database_location" : "",
+                    "selected" : "false"
+                },
+                {
+                    "name" : "Snow",
+                    "render_path" : "../../assets/renders/leaves/snowy.png",
+                    "description" : "Covers all leaves with snow and gives them winter colors.",
+                    "database_location" : "",
+                    "selected" : "false"
+                }
+            ]
+        },
+        {
+            "name" : "Birch Leaves",
+            "options" : [
+                {
+                    "name" : "Default",
+                    "render_path" : "../../assets/renders/birch/default.png",
+                    "description" : "No change. The Default look of Minecraft.",
+                    "database_location" : "",
+                    "selected" : "true"
+                },
+                {
+                    "name" : "Sakura",
+                    "render_path" : "../../assets/renders/birch/sakura.png",
+                    "description" : "Makes birch leaves pink, like Sakura trees",
+                    "database_location" : "",
+                    "selected" : "false"
+                }
+            ]
+        },
+        {
+            "name" : "Spruce Leaves",
+            "options" : [
+                {
+                    "name" : "Default",
+                    "render_path" : "../../assets/renders/spruce/default.png",
+                    "description" : "No change. The Default look of Minecraft.",
+                    "database_location" : "",
+                    "selected" : "true"
+                },
+                {
+                    "name" : "Festive",
+                    "render_path" : "../../assets/renders/spruce/festive.png",
+                    "description" : "Gives spruce leaves colorful lights.",
+                    "database_location" : "",
+                    "selected" : "false"
+                }
+            ]
+        }
+    ]
+}

@@ -1,33 +1,19 @@
 <div class="card mb-3">
     <div class="row g-0">
         <div class="col-md-4">
-            <app-picker></app-picker>
+            <app-picker [options]="options" #picker></app-picker>
         </div>
         <div class="col-md-8">
             <div class="card-body">
-                <h1 class="card-title">Grass Block</h1>
-                <div class="btn-group-vertical btn-group-toggle btn-block" data-toggle="buttons" id="buttons">
-                    <label class="btn btn-light active text-left">
-                        <input type="radio" name="options" id="option1" autocomplete="off" checked>
-                        No change. The Default look of Minecraft.
-                    </label>
-                    <label class="btn btn-light text-left">
-                        <input type="radio" name="options" id="option2" autocomplete="off">
-                        Adds fall leaves and twigs scattered randomly across grass blocks.
-                    </label>
-                    <label class="btn btn-light text-left">
-                        <input type="radio" name="options" id="option3" autocomplete="off">
-                        Covers all grass with snow and adds random winter details.
-                    </label>
-                    <label class="btn btn-light text-left">
-                        <input type="radio" name="options" id="option4" autocomplete="off">
-                        Grass is a more vibrant green color.
-                    </label>
-                    <label class="btn btn-light text-left">
-                        <input type="radio" name="options" id="option5" autocomplete="off">
-                        Grass appears thicker and more lush.
+                <h1 class="card-title">{{name}}</h1>
+                <form>
+                <div class= "form-group" id="buttons" *ngFor="let o of options; let i = index">
+                    <label>
+                        <input type="radio" name="options" (change)='radioChecked(o.name,i); picker.update();' autocomplete="off">
+                        {{o.description}}
                     </label>
                 </div>
+                </form>
             </div>
         </div>
     </div>
