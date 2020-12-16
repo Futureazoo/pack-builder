@@ -79,7 +79,7 @@
                 {
                     "name" : "Sakura",
                     "render_path" : "../../assets/renders/birch/sakura.png",
-                    "description" : "Makes birch leaves pink, like Sakura trees",
+                    "description" : "Makes birch leaves pink, like Sakura trees. Overrides other Leaf Changes.",
                     "database_location" : "",
                     "selected" : "false"
                 }
@@ -98,7 +98,425 @@
                 {
                     "name" : "Festive",
                     "render_path" : "../../assets/renders/spruce/festive.png",
-                    "description" : "Gives spruce leaves colorful lights.",
+                    "description" : "Gives spruce leaves colorful lights. Overrides other Leaf Changes.",
+                    "database_location" : "",
+                    "selected" : "false"
+                }
+            ]
+        },
+        {
+            "name" : "Lily Pad",
+            "options" : [
+                {
+                    "name" : "Default",
+                    "render_path" : "../../assets/renders/lily/default.png",
+                    "description" : "No change. The Default look of Minecraft.",
+                    "database_location" : "",
+                    "selected" : "true"
+                },
+                {
+                    "name" : "Blooming",
+                    "render_path" : "../../assets/renders/lily/blooming.png",
+                    "description" : "Adds random colorful flowers to the tops of some lily pads",
+                    "database_location" : "",
+                    "selected" : "false"
+                },
+                {
+                    "name" : "Ice Floes",
+                    "render_path" : "../../assets/renders/lily/ice.png",
+                    "description" : "Changes all lily pads into floating blocks of ice",
+                    "database_location" : "",
+                    "selected" : "false"
+                }
+            ]
+        },
+        {
+            "name" : "Overworld Ores",
+            "options" : [
+                {
+                    "name" : "Default",
+                    "render_path" : "../../assets/renders/overworld_ore/default.png",
+                    "description" : "No change. The Default look of Minecraft.",
+                    "database_location" : "",
+                    "selected" : "true"
+                },
+                {
+                    "name" : "Distinct",
+                    "render_path" : "../../assets/renders/overworld_ore/distinct.png",
+                    "description" : "Makes all ore shapes distinct from each other.",
+                    "database_location" : "",
+                    "selected" : "false"
+                },
+                {
+                    "name" : "Outline",
+                    "render_path" : "../../assets/renders/overworld_ore/outline.png",
+                    "description" : "Give all overworld ores a clear outline.",
+                    "database_location" : "",
+                    "selected" : "false"
+                }
+            ]
+        },
+        {
+            "name" : "Nether Ores",
+            "options" : [
+                {
+                    "name" : "Default",
+                    "render_path" : "../../assets/renders/nether_ore/default.png",
+                    "description" : "No change. The Default look of Minecraft.",
+                    "database_location" : "",
+                    "selected" : "true"
+                },
+                {
+                    "name" : "Outline",
+                    "render_path" : "../../assets/renders/nether_ore/outline.png",
+                    "description" : "Give all nether ores a clear outline.",
+                    "database_location" : "",
+                    "selected" : "false"
+                }
+            ]
+        },
+        {
+            "name" : "Furnace",
+            "options" : [
+                {
+                    "name" : "Default",
+                    "render_path" : "../../assets/renders/furnace/default.png",
+                    "description" : "No change. The Default look of Minecraft.",
+                    "database_location" : "",
+                    "selected" : "true"
+                },
+                {
+                    "name" : "Animated",
+                    "render_path" : "../../assets/renders/furnace/animated.gif",
+                    "description" : "Adds animated flames when the furnace is lit.",
+                    "database_location" : "",
+                    "selected" : "false"
+                },
+                {
+                    "name" : "Pumpkin",
+                    "render_path" : "../../assets/renders/furnace/pumpkin.png",
+                    "description" : "Gives furnaces a Jack-o-lantern face.",
+                    "database_location" : "",
+                    "selected" : "false"
+                },
+                {
+                    "name" : "Festive",
+                    "render_path" : "../../assets/renders/furnace/festive.png",
+                    "description" : "Adds stockings to the front of furnaces.",
+                    "database_location" : "",
+                    "selected" : "false"
+                }
+            ]
+        },
+        {
+            "name" : "Cake",
+            "options" : [
+                {
+                    "name" : "Default",
+                    "render_path" : "../../assets/renders/cake/default.png",
+                    "description" : "No change. The Default look of Minecraft.",
+                    "database_location" : "",
+                    "selected" : "true"
+                },
+                {
+                    "name" : "Halloween",
+                    "render_path" : "../../assets/renders/cake/halloween.png",
+                    "description" : "Cakes are decorated in a Halloween theme.",
+                    "database_location" : "",
+                    "selected" : "false"
+                },
+                {
+                    "name" : "Pumpkin Pie",
+                    "render_path" : "../../assets/renders/cake/pumpkin_pie.png",
+                    "description" : "Makes cakes look like pumpkin pies.",
+                    "database_location" : "",
+                    "selected" : "false"
+                },
+                {
+                    "name" : "Fruitcake",
+                    "render_path" : "../../assets/renders/cake/fruitcake.png",
+                    "description" : "Makes cakes look like fruitcakes.",
+                    "database_location" : "",
+                    "selected" : "false"
+                }
+            ]
+        },
+        {
+            "name" : "Bookshelf",
+            "options" : [
+                {
+                    "name" : "Default",
+                    "render_path" : "../../assets/renders/bookshelf/default.png",
+                    "description" : "No change. The Default look of Minecraft.",
+                    "database_location" : "",
+                    "selected" : "true"
+                },
+                {
+                    "name" : "Fall",
+                    "render_path" : "../../assets/renders/bookshelf/fall.png",
+                    "description" : "Bookshelf books have fall colors.",
+                    "database_location" : "",
+                    "selected" : "false"
+                },
+                {
+                    "name" : "Festive",
+                    "render_path" : "../../assets/renders/bookshelf/festive.png",
+                    "description" : "Bookshelf books have festive colors.",
+                    "database_location" : "",
+                    "selected" : "false"
+                }
+            ]
+        },
+        {
+            "name" : "Ender Frames",
+            "options" : [
+                {
+                    "name" : "Default",
+                    "render_path" : "../../assets/renders/end_frame/default.png",
+                    "description" : "No change. The Default look of Minecraft.",
+                    "database_location" : "",
+                    "selected" : "true"
+                },
+                {
+                    "name" : "Outline",
+                    "render_path" : "../../assets/renders/end_frame/animated.gif",
+                    "description" : "Ender Eyes and End Frames have animated blinking eyes.",
+                    "database_location" : "",
+                    "selected" : "false"
+                }
+            ]
+        },
+        {
+            "name" : "Heart of the Sea",
+            "options" : [
+                {
+                    "name" : "Default",
+                    "render_path" : "../../assets/renders/hos/default.png",
+                    "description" : "No change. The Default look of Minecraft.",
+                    "database_location" : "",
+                    "selected" : "true"
+                },
+                {
+                    "name" : "Outline",
+                    "render_path" : "../../assets/renders/hos/animated.gif",
+                    "description" : "The Heart of the Sea item is animated to blink.",
+                    "database_location" : "",
+                    "selected" : "false"
+                }
+            ]
+        },
+        {
+            "name" : "Elytra",
+            "options" : [
+                {
+                    "name" : "Default",
+                    "render_path" : "../../assets/renders/elytra/default.png",
+                    "description" : "No change. The Default look of Minecraft.",
+                    "database_location" : "",
+                    "selected" : "true"
+                },
+                {
+                    "name" : "Bat Wings",
+                    "render_path" : "../../assets/renders/elytra/bat.png",
+                    "description" : "Elytras look like bat wings.",
+                    "database_location" : "",
+                    "selected" : "false"
+                },
+                {
+                    "name" : "Festive",
+                    "render_path" : "../../assets/renders/elytra/festive.png",
+                    "description" : "Elytras look festive, like candy canes.",
+                    "database_location" : "",
+                    "selected" : "false"
+                }
+            ]
+        },
+        {
+            "name" : "Iron Armor",
+            "options" : [
+                {
+                    "name" : "Default",
+                    "render_path" : "../../assets/renders/iron_armor/default.png",
+                    "description" : "No change. The Default look of Minecraft.",
+                    "database_location" : "",
+                    "selected" : "true"
+                },
+                {
+                    "name" : "Iron Man",
+                    "render_path" : "../../assets/renders/iron_armor/ironman.png",
+                    "description" : "Reskin to Iron Man Armor.",
+                    "database_location" : "",
+                    "selected" : "false"
+                }
+            ]
+        },
+        {
+            "name" : "Cooked Beef",
+            "options" : [
+                {
+                    "name" : "Default",
+                    "render_path" : "../../assets/renders/cooked_beef/default.png",
+                    "description" : "No change. The Default look of Minecraft.",
+                    "database_location" : "",
+                    "selected" : "true"
+                },
+                {
+                    "name" : "Taco",
+                    "render_path" : "../../assets/renders/cooked_beef/taco.png",
+                    "description" : "Replace cooked beef with beef Tacos.",
+                    "database_location" : "",
+                    "selected" : "false"
+                },
+                {
+                    "name" : "Burger",
+                    "render_path" : "../../assets/renders/cooked_beef/burger.png",
+                    "description" : "Replace cooked beef with Hamburgers.",
+                    "database_location" : "",
+                    "selected" : "false"
+                },
+                {
+                    "name" : "Hot Dog",
+                    "render_path" : "../../assets/renders/cooked_beef/hotdog.png",
+                    "description" : "Replace cooked beef with all-beef hot dogs.",
+                    "database_location" : "",
+                    "selected" : "false"
+                }
+            ]
+        },
+        {
+            "name" : "Cooked Porkchop",
+            "options" : [
+                {
+                    "name" : "Default",
+                    "render_path" : "../../assets/renders/cooked_porkchop/default.png",
+                    "description" : "No change. The Default look of Minecraft.",
+                    "database_location" : "",
+                    "selected" : "true"
+                },
+                {
+                    "name" : "Sausage",
+                    "render_path" : "../../assets/renders/cooked_porkchop/sausage.png",
+                    "description" : "Replace porkchop with sausage.",
+                    "database_location" : "",
+                    "selected" : "false"
+                },
+                {
+                    "name" : "Hot Dog",
+                    "render_path" : "../../assets/renders/cooked_porkchop/hotdog.png",
+                    "description" : "Replace cooked porkchop with hot dogs.",
+                    "database_location" : "",
+                    "selected" : "false"
+                }
+            ]
+        },
+        {
+            "name" : "Totem of Undying",
+            "options" : [
+                {
+                    "name" : "Default",
+                    "render_path" : "../../assets/renders/totem/default.png",
+                    "description" : "No change. The Default look of Minecraft.",
+                    "database_location" : "",
+                    "selected" : "true"
+                },
+                {
+                    "name" : "Ghost",
+                    "render_path" : "../../assets/renders/totem/ghost.png",
+                    "description" : "Totems look like ghosts.",
+                    "database_location" : "",
+                    "selected" : "false"
+                },
+                {
+                    "name" : "Tombstone",
+                    "render_path" : "../../assets/renders/totem/gravestone.png",
+                    "description" : "Totems look like tombstones.",
+                    "database_location" : "",
+                    "selected" : "false"
+                },
+                {
+                    "name" : "Snowman",
+                    "render_path" : "../../assets/renders/totem/snowman.png",
+                    "description" : "Totems look like Snowmen.",
+                    "database_location" : "",
+                    "selected" : "false"
+                }
+            ]
+        },
+        {
+            "name" : "Slimes",
+            "options" : [
+                {
+                    "name" : "Default",
+                    "render_path" : "../../assets/renders/slime/default.png",
+                    "description" : "No change. The Default look of Minecraft.",
+                    "database_location" : "",
+                    "selected" : "true"
+                },
+                {
+                    "name" : "Yellow",
+                    "render_path" : "../../assets/renders/slime/yellow.png",
+                    "description" : "Slimes are yellow.",
+                    "database_location" : "",
+                    "selected" : "false"
+                },
+                {
+                    "name" : "Orange",
+                    "render_path" : "../../assets/renders/slime/orange.png",
+                    "description" : "Slimes are orange.",
+                    "database_location" : "",
+                    "selected" : "false"
+                },
+                {
+                    "name" : "Red",
+                    "render_path" : "../../assets/renders/slime/red.png",
+                    "description" : "Slimes are red.",
+                    "database_location" : "",
+                    "selected" : "false"
+                },
+                {
+                    "name" : "Purple",
+                    "render_path" : "../../assets/renders/slime/purple.png",
+                    "description" : "Slimes are purple.",
+                    "database_location" : "",
+                    "selected" : "false"
+                },
+                {
+                    "name" : "Blue",
+                    "render_path" : "../../assets/renders/slime/blue.png",
+                    "description" : "Slimes are blue.",
+                    "database_location" : "",
+                    "selected" : "false"
+                }
+            ]
+        },
+        {
+            "name" : "Creeper",
+            "options" : [
+                {
+                    "name" : "Default",
+                    "render_path" : "../../assets/renders/creeper/default.png",
+                    "description" : "No change. The Default look of Minecraft.",
+                    "database_location" : "",
+                    "selected" : "true"
+                },
+                {
+                    "name" : "Fall",
+                    "render_path" : "../../assets/renders/creeper/fall.png",
+                    "description" : "Creepers camouflage to fall foliage.",
+                    "database_location" : "",
+                    "selected" : "false"
+                },
+                {
+                    "name" : "Snowy",
+                    "render_path" : "../../assets/renders/creeper/snowy.png",
+                    "description" : "Creepers camouflage to snow.",
+                    "database_location" : "",
+                    "selected" : "false"
+                },
+                {
+                    "name" : "Stone",
+                    "render_path" : "../../assets/renders/creeper/stone.png",
+                    "description" : "Creepers camouflage to stone.",
                     "database_location" : "",
                     "selected" : "false"
                 }

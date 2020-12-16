@@ -9,7 +9,7 @@
                 <form>
                 <div class= "form-group" id="buttons" *ngFor="let o of options; let i = index">
                     <label>
-                        <input type="radio" name="options" (change)='radioChecked(o.name,i); picker.update();' autocomplete="off">
+                        <input type="radio" name="options" (change)='radioChecked(o.name,i); picker.update();' autocomplete="off" [checked]="o.selected">
                         {{o.description}}
                     </label>
                 </div>
