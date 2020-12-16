@@ -10,6 +10,7 @@ import { AboutPageComponent } from './pages/about-page/about-page.component';
 import { StatsPageComponent } from './pages/stats-page/stats-page.component';
 import { PickerComponent } from './components/picker/picker.component';
 import { SelectionCardComponent } from './components/selection-card/selection-card.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SelectionCardComponent } from './components/selection-card/selection-ca
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
