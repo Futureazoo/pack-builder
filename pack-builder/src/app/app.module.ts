@@ -11,6 +11,7 @@ import { StatsPageComponent } from './pages/stats-page/stats-page.component';
 import { PickerComponent } from './components/picker/picker.component';
 import { SelectionCardComponent } from './components/selection-card/selection-card.component';
 import { FormsModule } from '@angular/forms';
+import { HistoryCardComponent } from './components/history-card/history-card.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FormsModule } from '@angular/forms';
     AboutPageComponent,
     StatsPageComponent,
     PickerComponent,
-    SelectionCardComponent
+    SelectionCardComponent,
+    HistoryCardComponent
   ],
   imports: [
     BrowserModule,
