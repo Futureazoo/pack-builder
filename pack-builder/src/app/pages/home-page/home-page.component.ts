@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { SelectionData } from '../../data/selection-data';
 import { ResourceData } from '../../data/resource-data';
 import  *  as  resources  from  '../../resources.json';
+import * as JSZip from 'jszip';
+import { saveAs } from 'file-saver';
 
 @Component({
   selector: 'app-home-page',
@@ -28,5 +30,18 @@ export class HomePageComponent implements OnInit {
     public downloadClick() {
         console.log("DOWNLOAD");
         console.log(this.all_resources);
+        this.compileAndZip();
+    }
+
+    private compileAndZip() {
+        var zip = new JSZip();
+        zip.file("pack.mcmeta", '{"pack": {"pack_format": 6,"description": "by Futureazoo"}}');
+        var assets = zip.folder("assets");
+        zip.file("README.txt", "Hi! As you can see, there are no assets here! Prof. Mark said I could use temp data if I couldn't figure out a database, so here we are. However, as a proof of concept, this folder also has a .json showing the textures the user chose - Ideally this would be sent to a server-side program that would remotely build the pack folder structure for the user to download. Thanks!");
+        zip.file("selections.json", JSON.stringify(this.all_resources));
+        zip.generateAsync({type:"blob"})
+        .then(function(content) {
+            saveAs(content, "CustomPack.zip");
+        });
     }
 }
