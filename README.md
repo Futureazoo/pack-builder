@@ -52,13 +52,13 @@ Some original requirements have been scoped back whether due to Prof. Mark's com
 
 ## Sources
 Documentation:
-https://getbootstrap.com/docs/4.5/getting-started/introduction/
-https://angular.io/docs
-https://developer.mozilla.org/en-US/docs/Web/JavaScript
-https://developer.mozilla.org/en-US/docs/Web/HTML
-https://stuk.github.io/jszip/documentation/examples.html
+- https://getbootstrap.com/docs/4.5/getting-started/introduction/
+- https://angular.io/docs
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript
+- https://developer.mozilla.org/en-US/docs/Web/HTML
+- https://stuk.github.io/jszip/documentation/examples.html
 
 Specific Code:
-https://stackoverflow.com/questions/53025027/dynamic-list-of-radiobuttons-in-angular
-https://stackoverflow.com/questions/4782068/can-i-set-subject-content-of-email-using-mailto
+- https://stackoverflow.com/questions/53025027/dynamic-list-of-radiobuttons-in-angular
+- https://stackoverflow.com/questions/4782068/can-i-set-subject-content-of-email-using-mailto
 
