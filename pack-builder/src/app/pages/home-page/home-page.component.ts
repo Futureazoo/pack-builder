@@ -33,6 +33,7 @@ export class HomePageComponent implements OnInit {
         //console.log(this.allStorage);
     }
 
+    //JSZip code framework from JSZip example: https://stuk.github.io/jszip/documentation/examples.html
     private compileAndZip() {
         var zip = new JSZip();
         zip.file("pack.mcmeta", '{"pack": {"pack_format": 6,"description": "by Futureazoo"}}');

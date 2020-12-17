@@ -17,6 +17,7 @@ export class SelectionCardComponent implements OnInit {
     ngOnInit(): void {
     }
 
+    //Idea for selected property for dynamic radio buttons: https://stackoverflow.com/questions/53025027/dynamic-list-of-radiobuttons-in-angular
     radioChecked(name:string, i:number){
         this.options.forEach( item => {
             if (item.name !== name) {

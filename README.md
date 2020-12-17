@@ -1,4 +1,4 @@
-# pack-builder
+# Resource Pack Builder
 A web interface for building resource packs for Minecraft
 
 

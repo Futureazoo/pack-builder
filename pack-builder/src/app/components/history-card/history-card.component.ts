@@ -33,6 +33,7 @@ export class HistoryCardComponent implements OnInit {
         }
     }
 
+    //JSZip code framework from JSZip example: https://stuk.github.io/jszip/documentation/examples.html
     public downloadAgainClick() {
         var zip = new JSZip();
         zip.file("pack.mcmeta", '{"pack": {"pack_format": 6,"description": "by Futureazoo"}}');
