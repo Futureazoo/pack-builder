@@ -9,5 +9,8 @@
 
 <div class="container">
     <h1>Most Recent</h1>
-    <app-history-card></app-history-card>
+</div>
+
+<div class="container" *ngFor="let p of all_packs; let i = index">
+    <app-history-card [time]="p.time" [selections]="p.data" [contentId]="i"></app-history-card>
 </div>

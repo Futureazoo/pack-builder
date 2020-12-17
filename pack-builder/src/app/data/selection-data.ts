@@ -18,7 +18,7 @@ export class SelectionData {
         this.render_path = obj.render_path;
         this.description = obj.description;
         this.database_location = obj.database_location;
-        this.selected = (obj.selected =="true");
+        this.selected = (obj.selected == "true" || obj.selected == true);
     }
 
 }

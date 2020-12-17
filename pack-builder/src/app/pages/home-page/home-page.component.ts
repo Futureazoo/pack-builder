@@ -28,9 +28,9 @@ export class HomePageComponent implements OnInit {
     }
 
     public downloadClick() {
-        console.log("DOWNLOAD");
-        console.log(this.all_resources);
         this.compileAndZip();
+        localStorage.setItem(new Date().toString(), JSON.stringify(this.all_resources));
+        //console.log(this.allStorage);
     }
 
     private compileAndZip() {

@@ -1,15 +1,10 @@
-<div class="card">
-  <div class="card-header">
-    December 16, 2020 - 2:19 PM
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">Featuring:</h5>
-    <p class="card-text">
-        Grass: Fall <br>
-        Leaves: Fall <br>
-        Overworld Ores: Default <br>
-        Slimes: Yellow <br>
-    </p>
-    <a href="#" class="btn btn-primary">Download Again</a>
-  </div>
+<div class="card mb-3">
+    <div class="card-header">
+        {{time | date:'MMM d, y, h:mm a'}}
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">Non-Default Selections:</h5>
+        <p class="card-text">{{packDetails}}</p>
+        <button class="btn btn-primary" (click)="downloadAgainClick()">Download Again</button>
+    </div>
 </div>
